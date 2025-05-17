@@ -1,0 +1,27 @@
+{
+  "name": "my-lol-analytics",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clean": "rm -rf ./node_modules && cd ./server && npm run clean && cd ../client && npm run clean",
+    "setup": "npm install && cd ./server && npm run setup && cd ../client && npm run setup",
+    "dev": "concurrently \"cd ./server && npm run watch\" \"cd ./client && npm run start\"",
+    "build": "cd ./client && npm run build",
+    "start": "cd ./server && npm run start && cd ../client && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TongYang-tech/my-LoL-analytics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TongYang-tech/my-LoL-analytics/issues"
+  },
+  "homepage": "https://github.com/TongYang-tech/my-LoL-analytics#readme",
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
