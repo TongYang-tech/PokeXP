@@ -7,9 +7,9 @@ const App = () => {
   useEffect(() => {
     const getMock = async () => {
       const response = await axios.get(`${import.meta.env.BASE_URL}/api/v1/hello`)
-      return response.data.message
+      setMsg(response.data.message)
     }
-    setMsg(getMock())
+    getMock()
   }, [])
 
   return (
