@@ -7,7 +7,7 @@
     "setup": "npm install && cd ./server && npm run setup && cd ../client && npm run setup",
     "dev": "concurrently \"cd ./server && npm run watch\" \"cd ./client && npm run start\"",
     "build": "cd ./client && npm run build",
-    "start": "cd ./server && npm run start && cd ../client && npm run start"
+    "serve": "concurrently \"cd ./server && npm run start\" \"cd ./client && npm run serve\""
   },
   "repository": {
     "type": "git",

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "setup": "npm install",
-    "start": "NODE_CONFIG_STRICT_MODE=1 node ./src/app.js",
+    "start": "NODE_CONFIG_STRICT_MODE=1 node ./src/index.js",
     "watch": "NODE_CONFIG_STRICT_MODE=1 nodemon ./src/index.js",
     "clean": "rm -rf ./node_modules"
   },
