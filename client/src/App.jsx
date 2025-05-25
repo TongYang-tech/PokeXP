@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Container } from '@chakra-ui/react'
 import axios from 'axios'
 
 const App = () => {
@@ -13,13 +14,13 @@ const App = () => {
   }, [])
 
   return (
-    <>
+    <Container>
       {msg.map((type) => {
         return (
           <p key={crypto.randomUUID()}>{type}</p>
         )
       })}
-    </>
+    </Container>
   )
 }
 
