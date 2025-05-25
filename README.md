@@ -75,6 +75,7 @@ This project is a fullstack web application that helps users explore and analyze
 [![Node][Node.js]][Node-url]
 [![Vite][Vite]][Vite-url]
 [![Eslint][Eslint]][Eslint-url]
+[![Vitest][Vitest]][Vitest-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,6 +141,8 @@ This project is a fullstack web application that helps users explore and analyze
 [Node-url]: https://nodejs.org/en
 [Vite]: https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white
 [Vite-url]: https://vite.dev/
+[Vitest]: https://img.shields.io/badge/vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white
+[Vitest-url]: https://vitest.dev/
 [Chakra]: https://shields.io/badge/chakra--ui-black?logo=chakraui&style=for-the-badge
 [Chakra-url]: https://chakra-ui.com/
 [Eslint]: https://img.shields.io/badge/ESLint-3A33D1?logo=eslint
