@@ -74,8 +74,9 @@ This project is a fullstack web application that helps users explore and analyze
 [![Express][Express.js]][Express-url]
 [![Node][Node.js]][Node-url]
 [![Vite][Vite]][Vite-url]
-[![Eslint][Eslint]][Eslint-url]
 [![Vitest][Vitest]][Vitest-url]
+[![Eslint][Eslint]][Eslint-url]
+[![Docker][Docker]][Docker-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,6 +118,11 @@ This project is a fullstack web application that helps users explore and analyze
    ```sh
    npm run preview
    ```
+8. Compose
+   ```sh
+   docker compose build
+   dokcer compose up
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,3 +153,5 @@ This project is a fullstack web application that helps users explore and analyze
 [Chakra-url]: https://chakra-ui.com/
 [Eslint]: https://img.shields.io/badge/ESLint-3A33D1?logo=eslint
 [Eslint-url]: https://eslint.org/
+[Docker]: https://img.shields.io/badge/docker-257bd6?style=for-the-badge&logo=docker&logoColor=white
+[Docker-url]: https://docs.docker.com/
