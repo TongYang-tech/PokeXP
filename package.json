@@ -1,7 +1,6 @@
 {
-  "name": "my-lol-analytics",
+  "name": "my-tcg-pokex",
   "version": "1.0.0",
-  "description": "",
   "scripts": {
     "clean": "rm -rf ./node_modules && cd ./server && npm run clean && cd ../client && npm run clean",
     "setup": "npm install && cd ./server && npm run setup && cd ../client && npm run setup",
@@ -13,10 +12,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TongYang-tech/my-tcg-pokex.git"
+    "url": "https://github.com/TongYang-tech/my-tcg-pokex.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
