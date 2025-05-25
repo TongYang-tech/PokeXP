@@ -1,6 +1,7 @@
 {
   "name": "backend",
   "version": "0.0.0",
+  "proxy": "http://localhost:8080",
   "scripts": {
     "setup": "npm install",
     "start": "NODE_CONFIG_STRICT_MODE=1 node ./src/index.js",

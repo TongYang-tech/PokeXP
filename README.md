@@ -11,7 +11,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![Unlicense License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
@@ -70,21 +69,20 @@ This project is a fullstack web application that helps users explore and analyze
 
 ### Built With
 
-* [![React][React.js]][React-url]
-* [![Express][Express.js]][Express-url]
-* [![Node][Node.js]][Node-url]
+[![React][React.js]][React-url]
+[![Chakra-UI][Chakra]][Chakra-url]
+[![Express][Express.js]][Express-url]
+[![Node][Node.js]][Node-url]
+[![Vite][Vite]][Vite-url]
+[![Eslint][Eslint]][Eslint-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+# Getting Started
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
@@ -92,12 +90,10 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
 1. Get a free API Key at [Pokemon TCG](https://pokemontcg.io/)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/TongYang-tech/my-tcg-pokex.git
    ```
 3. Install NPM packages
    ```sh
@@ -105,8 +101,8 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 4. Enter your API in `.env`
    ```sh
-  export BASE_PATH=/myLoLytics
-  export POKEMON_TCG_API_KEY=
+   export BASE_PATH=/myLoLytics
+   export POKEMON_TCG_API_KEY=
    ```
 5. Dev
    ```sh
@@ -125,18 +121,16 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/TongYang-tech/my-tcg-pokex?style=for-the-badge
+[contributors-url]: https://github.com/TongYang-tech/my-tcg-pokex/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/TongYang-tech/my-tcg-pokex?style=for-the-badge
+[forks-url]: https://github.com/TongYang-tech/my-tcg-pokex/forks
+[stars-shield]: https://img.shields.io/github/stars/TongYang-tech/my-tcg-pokex?style=for-the-badge
+[stars-url]: https://github.com/TongYang-tech/my-tcg-pokex/stargazers
+[issues-shield]: https://img.shields.io/github/issues/TongYang-tech/my-tcg-pokex?style=for-the-badge
+[issues-url]: https://github.com/TongYang-tech/my-tcg-pokex/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/tongyang20
 [product-screenshot]: images/screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
@@ -146,3 +140,7 @@ _Below is an example of how you can instruct your audience on installing and set
 [Node-url]: https://nodejs.org/en
 [Vite]: https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white
 [Vite-url]: https://vite.dev/
+[Chakra]: https://shields.io/badge/chakra--ui-black?logo=chakraui&style=for-the-badge
+[Chakra-url]: https://chakra-ui.com/
+[Eslint]: https://img.shields.io/badge/ESLint-3A33D1?logo=eslint
+[Eslint-url]: https://eslint.org/
