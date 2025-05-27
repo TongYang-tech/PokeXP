@@ -1,11 +1,12 @@
-import * as React from 'react'
+import { Container } from '@chakra-ui/react'
 
 const Home = () => {
   return (
-    <div>
+    <Container>
       <h1>Welcome to the Pokédex</h1>
       <p>Explore the world of Pokémon!</p>
-    </div>
+    </Container>
+
   )
 }
 

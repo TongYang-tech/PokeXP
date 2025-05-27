@@ -1,21 +1,18 @@
 import * as React from 'react'
 import {
   createBrowserRouter,
-  RouterProvider,
-  redirect
+  RouterProvider
 } from 'react-router-dom'
 import Home from './components/layout/Home'
 
 const Router = createBrowserRouter([
   {
     path: '/',
-    element: redirect('/pokex')
-  },
-  {
-    path: '/pokex',
     element: <Home />
   }
-])
+], {
+  basename: import.meta.env.BASE_URL
+})
 
 const App = () => {
   return (
