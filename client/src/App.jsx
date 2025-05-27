@@ -1,14 +1,13 @@
-import * as React from 'react'
 import {
   createBrowserRouter,
   RouterProvider
 } from 'react-router-dom'
-import Home from './components/layout/Home'
+import Layout from './components/layout/Layout'
 
 const Router = createBrowserRouter([
   {
     path: '/',
-    element: <Home />
+    element: <Layout />
   }
 ], {
   basename: import.meta.env.BASE_URL
