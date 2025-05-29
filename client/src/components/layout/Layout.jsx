@@ -1,8 +1,15 @@
+import NavHeaderBar from './navigation/NavHeaderBar'
+import { Container } from '@chakra-ui/react'
+import { Outlet } from 'react-router-dom'
+
 const Layout = () => {
   return (
-    <div>
-      This is the Layout component.
-    </div>
+    <>
+      <NavHeaderBar />
+      <Container>
+        <Outlet />
+      </Container>
+    </>
   )
 }
 
