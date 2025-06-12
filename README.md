@@ -116,7 +116,7 @@ This project is a fullstack web application that helps users explore and analyze
    ```
 7. Preview
    ```sh
-   npm run preview
+   npm run serve
    ```
 8. Compose
    ```sh
