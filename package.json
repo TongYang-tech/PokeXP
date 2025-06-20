@@ -1,5 +1,5 @@
 {
-  "name": "my-tcg-pokex",
+  "name": "pokexp",
   "version": "1.0.0",
   "scripts": {
     "clean": "rm -rf ./node_modules && cd ./server && npm run clean && cd ../client && npm run clean",
@@ -13,14 +13,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TongYang-tech/my-tcg-pokex"
+    "url": "https://github.com/TongYang-tech/PokeXP.git"
   },
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/TongYang-tech/my-tcg-pokex/issues"
-  },
-  "homepage": "https://github.com/TongYang-tech/my-tcg-pokex#readme",
   "dependencies": {
     "concurrently": "^9.1.2"
   },
