@@ -6,7 +6,7 @@
     "setup": "npm install && cd ./server && npm run setup && cd ../client && npm run setup",
     "dev": "concurrently \"cd ./server && npm run watch\" \"cd ./client && npm run start\"",
     "lint": "cd ./server && npm run lint && cd ../client && npm run lint",
-    "test": "vitest",
+    "test": "npm run lint && export BASE_PATH=/pokex && vitest run --pool=threads --coverage",
     "build": "cd ./client && npm run build",
     "serve": "concurrently \"cd ./server && npm run start\" \"cd ./client && npm run serve\"",
     "start": "cd ./server && npm run start"
@@ -20,6 +20,8 @@
     "concurrently": "^9.1.2"
   },
   "devDependencies": {
+    "@vitest/coverage-v8": "^3.2.4",
+    "vite-plugin-commonjs": "^0.10.4",
     "vitest": "^3.1.4"
   }
 }
