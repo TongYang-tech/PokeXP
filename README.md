@@ -103,7 +103,7 @@ This project is a fullstack web application that helps users explore and analyze
    ```
 4. Enter your API in `.env`
    ```sh
-   export BASE_PATH=/myLoLytics
+   export BASE_PATH=/pokex
    export POKEMON_TCG_API_KEY=
    ```
 5. Dev
