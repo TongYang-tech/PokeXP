@@ -118,10 +118,14 @@ This project is a fullstack web application that helps users explore and analyze
    ```sh
    npm run serve
    ```
+9. Test
+   ```sh
+   npm run test
+   ```
 8. Compose
    ```sh
    docker compose build
-   dokcer compose up
+   docker compose up
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
