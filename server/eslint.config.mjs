@@ -10,7 +10,13 @@ export default defineConfig([
   },
   {
     files: ["**/*.js"],
-    languageOptions: { sourceType: "commonjs" }
+    languageOptions: {
+      ecmaVersion: 2020,
+      sourceType: "commonjs"
+    },
+    env: {
+      node: true
+    }
   },
   {
     files: ["**/*.{js,mjs,cjs}"],
