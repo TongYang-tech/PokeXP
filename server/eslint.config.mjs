@@ -13,16 +13,15 @@ export default defineConfig([
     languageOptions: {
       ecmaVersion: 2020,
       sourceType: "commonjs"
-    },
-    env: {
-      node: true
     }
   },
   {
     files: ["**/*.{js,mjs,cjs}"],
     languageOptions:
     {
-      globals: globals.browser
+      globals: {
+        ...globals.node
+      }
     }
   },
   {
